@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+body{
+   display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(/images/christian-wiediger-AEeoY_aqvNk-unsplash.jpg);
+  width:100%;
+  height:90vh;
+  background-size: cover;
+  background-position: center;
+}
+h1{
+  padding-top:25px ;
+  padding-bottom:20px ;
+}
+.wrapper{
+  width: 350px;
+  padding: 2rem 0 1rem 0;
+  margin: 50px auto;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 20px 35px rgba(0,0,0.1);
+  backdrop-filter: blur(20px);
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+}
+.input-box{
+  width:100%;
+  border-radius:10px;
+  padding-top: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom:10px ;
+}
+.input-box input{
+  width: 90%;
+  height: 100%;
+  background: transparent;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255,.1) ;
+  border-radius: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px; 
+  padding-left: 10px;
+}
+.input-box input::placeholder{
+  color: #fff;
+  padding-left: 10px;
+}
+.input-box i{
+  font-size: 15px;
+}
+.Register{
+ width: 50%;
+ height: 45px;
+ background: #fff;
+ border: none;
+ outline: none;
+ border-radius: 40px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+ cursor: pointer;
+ font-size: 16px;
+ color: #333;
+ font-weight: 600;
+ margin-top: 4px;
+}
+.Register:active{
+  opacity: 0.5;
+}
+.Register:hover{
+ opacity:0.8;
+ box-shadow: inset;
+}
+.member{
+  font-size:14.5px;
+  text-align: center;
+  margin:20px 0 15px;  
+}
+.member p a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600; 
+}
+.member p a:hover{
+  text-decoration: underline;
+}
+.remember{
+  padding-bottom: 5px;
+}

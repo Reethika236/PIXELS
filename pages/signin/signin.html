@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href ='signin.css'>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script type="module" src="signin.js" defer></script>
+  <title>signin</title>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Register Here!</h1>
+    <div class="input-box">
+      <input type="text" placeholder="Email" id="email" required>
+        <i class='bx bxs-user'></i>
+    </div>
+   <div class="input-box">
+    <input type="password" placeholder="Password" id="password" required>
+    <i class='bx bxs-lock-alt' ></i>
+   </div>
+   <div class="input-box">
+    <input type="Confirm password" placeholder="Confirm Password" id="Confirm" required>
+    <i class='bx bxs-lock-alt' ></i>
+   </div>
+   <div class="remember">
+   <label>
+    <input type="checkbox" checked="checked" name="remember">Agree to terms & condtions
+  </label>
+  </div>
+    <button class="Register" id="submit">
+      REGISTER
+    </button>
+    <div class="member">
+      <p>Already a Member?<a href="/pages/login/login.html">Login</a></p>
+    </div>
+   </div>
+  <!-- <div class="member">
+    <p>Already a Member?<a href="/pages/login/login.html">Login</a></p>
+  </div> -->
+</body>
+</html>

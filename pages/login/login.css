@@ -1,0 +1,112 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(/images/christian-wiediger-AEeoY_aqvNk-unsplash.jpg);
+  /* background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(/images/assortment-cinema-elements-red-background-with-copy-space.jpg); */
+  width:100%;
+  height:90vh;
+  background-size: cover;
+  background-position: center;
+}
+.wrapper{
+  width: 350px;
+  padding: 2rem 0 1rem 0;
+  margin: 50px auto;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 20px 35px rgba(0,0,0.1);
+  backdrop-filter: blur(20px);
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+}
+h1{
+  padding-top:25px ;
+  padding-bottom:20px ;
+  color: black;
+}
+.input-box{
+  width:100%;
+  border-radius:20px;
+  padding-top: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom:10px ;
+}
+.input-box input{
+  width: 90%;
+  height: 100%;
+  background: transparent;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255,.1) ;
+  border-radius: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px; 
+  padding-left: 10px;
+}
+.input-box input::placeholder{
+  color: #fff;
+  padding-left: 10px;
+}
+.input-box i{
+  font-size: 15px;
+}
+.remember-forgot{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 2 15px;
+}
+.remember-forgot a{
+  color: #fff;
+  text-decoration: none;
+}
+.remember-forgot a:hover{
+  text-decoration:underline;
+}
+.btn{
+  width: 50%;
+ height: 45px;
+ background: #fff;
+ border: none;
+ outline: none;
+ border-radius: 40px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+cursor: pointer;
+font-size: 16px;
+color: #333;
+font-weight: 600;
+margin-top: 4px;
+}
+.btn:active{
+  opacity: 0.5;
+}
+.btn:hover{
+ opacity:0.8;
+ box-shadow: inset;
+}
+.register-link{
+ font-size:14.5px;
+ text-align: center;
+ margin:20px 0 15px;
+}
+.register-link p a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.register-link p a:hover{
+ text-decoration: underline;
+
+}
